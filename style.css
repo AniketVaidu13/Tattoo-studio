@@ -1,0 +1,680 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-img{
+    background-image: url('https://ld-wt73.template-help.com/tf/inkvo/images/slide-1-1920x879.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -344px 0.1px;
+}
+/* .bg-img-2{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), url('https://ld-wt73.template-help.com/tf/inkvo/images/home-01-1920x662.jpg'));    
+    height: 64vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -471px 0px;
+} */
+/* Section text max-width */
+.section-text {
+  max-width: 620px;
+  font-size: 0.95rem;
+}
+
+/* Slider container */
+.team-slider {
+  max-width: 1100px;
+  padding: 0 40px;
+  position: relative;
+}
+
+/* Image container */
+.artist-box {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.artist-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+/* Side previews: scaled down & semi-transparent */
+.side-card {
+  opacity: 0.45;
+  transform: scale(0.85);
+  transition: all 0.3s ease;
+}
+
+/* Navigation buttons */
+.slider-btn {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  transition: background-color 0.2s ease;
+}
+
+.slider-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+/* Bottom CTA button */
+.btn-view-team {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  padding: 12px 30px;
+}
+.bg-img-2 {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.65) 0%,
+        rgba(255, 255, 255, 0.55) 30%,
+        rgba(255, 255, 255, 0.30) 60%,
+        rgba(255, 255, 255, 0) 100%
+    ),
+    url("https://ld-wt73.template-help.com/tf/inkvo/images/home-01-1920x662.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-text{
+    padding: 100px 0px 0px 13px;
+    line-height: 32px;
+}
+.hero-text h1{
+    letter-spacing: 3px;
+}
+.bg-img-2-text{
+    padding: 52px 27px 10px 27px;
+}
+.bg-img-2-text h2{
+    font-size: 24px;
+    line-height: 1.05;
+    font-weight: 500;
+}
+.bg-img-2-text p{
+    color: #151515;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-top: 16px;
+}
+.services p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 13px;
+    line-height: 1.7;
+}
+.showcase{
+    background-color: black;
+    color: #fff;
+    margin: 70px 0;
+    padding: 70px 0;
+}
+.para{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.showcase button{
+    background-color: black;
+    font-size: 13px;
+    font-weight: 900;
+}
+.para-1{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1.8;
+}
+.advantages{
+    background-color: #f6f6f6;
+    padding: 50px 0;
+}
+.para-2{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 16px !important;
+    margin: 0 0 10px 0;
+}
+.para-3{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.6);
+}
+.advantages h3{
+    font-size: 20px;
+    font-weight: 900;
+}
+.btn-new{
+    font-size: 12px;
+    padding: 6px 25px;
+    line-height: 24px;
+}
+.img-one-by-one img{
+    clip-path: polygon(0px 54px, 100% 54px, 100% 79%, 0% 79%);
+}
+.foot-form{
+    padding: 40px 0;
+    background-color: black;
+    color: #fff;
+}
+.foot-form input{
+    background-color: black;
+    color: white;
+}
+.foot-form label{
+    background-color: black;
+    color: white;
+}
+.para-4{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+}
+.client{
+    background-color: #f6f6f6;
+}
+.client-main{
+    margin: 70px 13px;
+    background-color: #fff;
+    box-shadow: 0px 4px black;    
+}
+.client-main h3{
+    margin: 0px 0px 30px 15px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.client-main span{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6)
+}
+.straight-line{
+    font-size: 22px;
+    position: relative;
+    top: -10px;
+    left: 0;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+.img-circle img{
+    clip-path: circle(50% at 50% 50%);
+    position: relative;
+    top: 46px;
+    left: 10px;
+}
+.sub{
+    background-color: black;
+    color: white;
+    padding: 60px 0;
+}
+.sub h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.sub p{
+    margin: 15px 30px;
+    font-weight: 600;
+}
+.bored input{
+    background-color: black;
+    color: white;
+    padding: 7px 80px 7px 10px;
+    border: 1px solid white;
+}
+/* Appointment Section */
+
+.appointment-section {
+    background-color: #111;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+
+/* Heading */
+
+.appointment-heading h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.appointment-heading p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #bdbdbd;
+}
+
+
+/* Form */
+
+.appointment-form {
+    max-width: 850px;
+    margin: 40px auto 0;
+    display: flex;
+    gap: 30px;
+    text-align: left;
+}
+
+.form-column {
+    width: 50%;
+}
+
+.form-column input,
+.form-column select {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+
+    background-color: transparent;
+    border: 1px solid #777;
+    color: white;
+
+    outline: none;
+}
+
+
+/* Select */
+
+.form-column select {
+    color: #aaa;
+}
+
+.form-column select option {
+    color: black;
+}
+
+
+/* Placeholder */
+
+.form-column input::placeholder {
+    color: #aaa;
+}
+
+
+/* Comment */
+
+.comment-box {
+    max-width: 850px;
+    margin: 10px auto 0;
+}
+
+.comment-box textarea {
+    width: 100%;
+    height: 120px;
+
+    padding: 12px 15px;
+
+    background-color: transparent;
+    border: 1px solid #777;
+    color: white;
+
+    resize: none;
+    outline: none;
+}
+
+.comment-box textarea::placeholder {
+    color: #aaa;
+}
+
+
+/* Button */
+
+.appointment-btn {
+    margin-top: 35px;
+    padding: 12px 25px;
+
+    border: none;
+    background-color: white;
+    color: #111;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.appointment-btn:hover {
+    background-color: #ddd;
+}
+
+
+/* ==========================================================
+   RESPONSIVE BREAKPOINTS
+   ========================================================== */
+
+@media (max-width: 576px) {
+    .appointment-section {
+    padding: 60px 15px;
+    }
+    .appointment-heading h3 {
+    font-size: 28px;
+    }
+    .appointment-heading p {
+    font-size: 14px;
+    }
+    .appointment-form {
+    display: block;
+    margin-top: 30px;
+    }
+    .form-column {
+    width: 100%;
+    }
+    .form-column input,
+    .form-column select {
+    margin-bottom: 15px;
+    }
+    .comment-box {
+    margin-top: 0;
+    }
+    .appointment-btn {
+    font-size: 12px;
+    padding: 11px 18px;
+    }
+}
+
+@media (min-width: 576px) {
+    .img-size{
+    width: 50% !important;
+    }
+    .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    }
+    .hero-text{
+    padding: 100px 0px 0px 38px;
+    }
+    .bg-img{
+    background-position: -170px 0px;
+    height: 55vh;
+    }
+    .bg-img-2{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://ld-wt73.template-help.com/tf/inkvo/images/home-01-1920x662.jpg');
+    background-size: cover ;
+    background-position: -230px 0px;
+    height: 54vh;
+    }
+    .para-5{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    }
+    .para-6{
+    width: 88%;
+    text-align: center;
+    margin: 0 auto;
+    }
+    .para{
+    margin: 0 auto;
+    width: 95%;
+    }
+    .img-hair{
+    width: 88%;
+    }
+    .para-3{
+    width: 91%;
+    margin: 0 auto;
+    }
+    .advantages img{
+    width: 94%;
+    }
+    .appointment input{
+    padding: 10px 293px 10px 20px !important;
+    }
+    .bored button{
+    padding: 0px 10px 0px 10px !important;
+    height: 40px;
+    }
+    .img-size img{
+    width: 90% !important;
+    }
+    .img-size{
+    margin-left:4px
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-img{
+    background-position: -47px 0px;
+    }
+    .bg-img-2-text{
+    padding: 59px 27px 10px 46px;
+    }
+    .bg-img-2{
+    background-position: -111px 0px;
+    }
+    .copy img{
+    width: 20% !important;
+    }
+    .para-6, .para {
+    width: 70% !important;
+    }
+    .img-hair{
+    width: 80%;
+    }
+    .client h2{
+    font-size: 22px;
+    }
+    .client-para{
+    width: 57% !important;
+    }
+    .client-para-2{
+    width: 67%;
+    margin-left: 26px;
+    }
+}
+
+@media (min-width: 992px) {
+    .icons-and-text{
+    gap: 420px;
+    }
+    .bg-img{
+    background-position: 0px 0px;
+    height: 75vh;
+    }
+    .icons-and-text a{
+    font-size: 12px;
+    }
+    .icons-and-text span{
+    font-size: 12px;
+    }
+    .nav-image{
+    width: 27% !important;
+    }
+    .hero-text {
+    padding: 72px 0px 0px 27px !important;
+    }
+    .main-para{
+    width: 56%;
+    margin: 0 auto !important;
+    }
+    .showcase p{
+    margin: 20px 0px 20px 0px;
+    text-align: start;
+    }
+    .our-artist p{
+    width: 89%;
+    margin: 0 auto !important;
+    padding: 15px 0 20px 0;
+    }
+    .client-main{
+    margin:0;
+    }
+    .client-para{
+    width: 98% !important;
+    margin: 20px 0 20px 0;
+    }
+    .client-para-2{
+    width: 98% !important;
+    }
+    .bg-img-2 {
+    height: 80vh;
+    background-image: url("https://ld-wt73.template-help.com/tf/inkvo/images/home-01-1920x662.jpg");
+    background-size: cover;
+    background-position: -300px 0;
+    background-repeat: no-repeat;
+    }
+    .bg-img-2-text {
+    margin-top: 70px;
+    }
+    .img-hair{
+    width: 100%;
+    }
+    .show-case{
+    width: 50% !important;
+    }
+    .show-img{
+    width: 50% !important;
+    }
+    .para-6, .para{
+    width: 90% !important;
+    }
+    .line-text{
+    margin-left: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .port{
+    font-size: 40px !important;
+    margin: 60px 0 20px 0;
+    }
+    .para-3 {
+    width: 70%;
+    }
+    .sub h3{
+    font-size: 54px;
+    line-height: 0.85714;
+    padding: 50px 0 15px 0;
+    }
+    .sub{
+    margin: 100px 0 0 0;
+    }
+    .bg-img-2-text p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    }
+    .bg-img-2-text h2{
+    font-size: 45px;
+    line-height: 1.1;
+    }
+    .bg-img-2{
+    background-position: -440px 0;
+    height: 100vh;
+    }
+    .bg-img-2-text {
+    margin-top: 185px;
+    }
+    .read-more-btn{
+    padding: 20px 30px 20px 30px !important;
+    }
+    .bg-img{
+    height: 100vh;
+    }
+    .hero-text span{
+    font-size: 65px !important;
+    }
+    .hero-text h1{
+    font-size: 78px !important;
+    }
+    .icons-and-text{
+    gap: 600px;
+    }
+    .vantara{
+    gap: 100px !important;
+    }
+    .temp{
+    margin-left: 50px !important;
+    }
+    .client{
+    margin: 70px 0px 0px 0px !important;
+    background-color: #fff;
+    }
+    .client h2{
+    font-size: 40px;
+    width: 75%;
+    }
+    .client-main{
+    box-shadow: 0px 0px 10px;
+    }
+    .bored button {
+    padding: 0 15px 0px 15px !important;
+    height: 50px;
+    }
+    .bored input {
+    padding: 12px 250px 12px 25px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .icons-and-text {
+    gap: 700px;
+    }
+    .bg-img-2 {
+    background-position: -370px 0;
+    }
+    .copy{
+    width: 80% !important;
+    }
+    .service-heading{
+    font-size: 48px !important;
+    }
+    .rect{
+    margin-left: 115px !important;
+    padding: 60px 0;
+    }
+    .show-case {
+    width: 40% !important;
+    }
+    .show-img {
+    width: 40% !important;
+    }
+    .adv{
+    width: 80%;
+    margin-left: 120px;
+    }
+    .adv h2{
+    font-size: 50px;
+    margin-top: 35px;
+    }
+    .diva{
+    margin-left: 115px !important;
+    }
+    .line-text{
+    margin-left: 0;
+    }
+    .para-3 {
+    width: 62%;
+    }
+    .client{
+    width: 80% !important;
+    margin-left: 115px !important;
+    }
+}
